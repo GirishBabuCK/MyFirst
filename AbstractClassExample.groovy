@@ -1,7 +1,7 @@
 class AbstractClassExample { 
    static void main(String[] args) { 
       StudentAb st = new StudentAb(); 
-      st.StudentID = 1;
+      st.StudentIdentity = 1;
 		
       st.Marks1 = 10; 
       st.person_name="Joe"; 
@@ -18,8 +18,10 @@ abstract class PersonAb {
 }
  
 class StudentAb extends PersonAb { 
-   int StudentID 
-   int Marks3; 
+ 
+   int StudentIdentity 
+   int Marks1; 
+
 	
    public StudentAb() { 
       super(); 
