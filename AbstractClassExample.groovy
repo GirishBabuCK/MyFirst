@@ -4,15 +4,15 @@ class AbstractClassExample {
       st.StudentID = 1;
 		
       st.Marks1 = 10; 
-      st.name="Joe"; 
+      st.person_name="Joe"; 
 		
-      println(st.name); 
+      println(st.person_name); 
       println(st.DisplayMarks()); 
    } 
 } 
 
 abstract class PersonAb { 
-   public String name; 
+   public String person_name; 
    public PersonAb() { } 
    abstract void DisplayMarks();
 }
