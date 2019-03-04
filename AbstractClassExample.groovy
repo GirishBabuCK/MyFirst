@@ -19,14 +19,14 @@ abstract class PersonAb {
  
 class StudentAb extends PersonAb { 
    int StudentID 
-   int Marks1; 
+   int Marks3; 
 	
    public StudentAb() { 
       super(); 
    } 
 	
    void DisplayMarks() { 
-      println(Marks1); 
+      println(Marks3); 
    }  
 } 
 

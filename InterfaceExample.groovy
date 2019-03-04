@@ -8,14 +8,14 @@ class InterfaceExample {
 } 
 
 interface MarksInt { 
-   void DisplayMarks(); 
+   void DisplayMarksInt(); 
 } 
 
 class StudentInt implements MarksInt {
    int StudentID
    int Marks1;
 	
-   void DisplayMarks() {
+   void DisplayMarksInt() {
       println(Marks1);
    }
 }
